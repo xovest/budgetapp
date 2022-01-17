@@ -1,5 +1,6 @@
 import { Button, Stack } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container'
+import BudgetCard from 'components/BudgetCard.js'
 
 function App() {
   return <Container className='my-4'>
@@ -15,6 +16,7 @@ function App() {
         gap: '1rem', 
         alignItems: 'flex-start',
       }}>
+    <BudgetCard />
     </div>
   </Container>
 }
